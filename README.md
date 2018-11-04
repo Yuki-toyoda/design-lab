@@ -1,1 +1,1 @@
-# toyo.design.lab.github.io
+# design-lab
