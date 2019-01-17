@@ -410,3 +410,98 @@ a img:hover {
   transform: scale(1, 1);
 }
 /* ここより上はお試しでやったので消したもいいよ */
+
+@media screen and (max-width:600px) {
+  body{
+    font-size: 3.5vw;
+  }
+
+  h1{
+    font-size: 7.2vw;
+  }
+
+  h2{
+    font-size: 6vw;
+  }
+
+  header {
+    width: auto;
+    margin: 0.5%;
+    height:58px
+  }
+
+  .logo {
+    float: none;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .global-nav {
+    float: none;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .global-nav li {
+    display: inline;
+    float: none;
+    margin: 0 8px;
+  }
+
+  #wrap {
+    margin-top: 40px;
+    padding: 35px 0 0;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .main {
+    float: none;
+    width: auto;
+    margin: 0 5%;
+  }
+
+  h2 img {
+    max-width: 100%;
+  }
+
+  .sidebar {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 30px 10% 10px;
+    background-color: #f7f6f4;
+  }
+
+  nav a {
+    color: #ffffcc;
+  }
+
+  #index {
+    background-image: none;
+     background:linear-gradient(#1E00FF, #05FBFF);
+  }
+
+  #index h1 {
+    font-size: 50px;
+  }
+
+  .profile-txt {
+      max-width: 100%;
+  }
+
+  .main-center {
+    max-width: 100%;
+  }
+
+  #contact .form .email {
+    width: 240px;
+  }
+
+  #contact .form .message {
+    width: 240px;
+  }
+}
+
