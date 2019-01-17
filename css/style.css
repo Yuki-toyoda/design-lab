@@ -503,5 +503,13 @@ a img:hover {
   #contact .form .message {
     width: 240px;
   }
+  
+  #index {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 }
 
