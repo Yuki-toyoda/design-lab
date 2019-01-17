@@ -512,5 +512,10 @@ a img:hover {
     background-attachment: fixed;
     background-size: cover;
   }
+  
+  iframe {
+    height:auto;
+    width: auto;
+  }
 }
 
